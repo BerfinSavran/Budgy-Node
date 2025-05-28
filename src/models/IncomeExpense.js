@@ -20,7 +20,7 @@ module.exports = (sequelize) => {
       allowNull: false,
     },
     InExType: {
-      type: DataTypes.ENUM("Income", "Expense"),
+      type: DataTypes.INTEGER,
       allowNull: false,
     },
     Description: {

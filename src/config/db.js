@@ -4,7 +4,7 @@ const CategoryModel = require("../models/Category");
 const IncomeExpenseModel = require("../models/IncomeExpense");
 const GoalModel = require("../models/Goal");
 
-const sequelize = new Sequelize("Budgy", "budgy_user", "1234", {
+const sequelize = new Sequelize("Budgy", "budgy_user", "123!", {
     host: "localhost",
     dialect: "mssql",
     logging: false,
